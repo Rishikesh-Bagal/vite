@@ -12,6 +12,7 @@ export default defineConfig({
       '**/dist/**',
       './playground/**/*.*',
       './playground-temp/**/*.*',
+      '**/.kilo/**',
     ],
     deps: {
       // we specify 'packages' so Vitest doesn't inline the files
